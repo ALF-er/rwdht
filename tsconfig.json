@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"jsx": "react",
+		"baseUrl": "./src",
+		"paths": {
+			"~*": ["./*"]
+		},
+		"typeRoots": ["node_modules/@types"],
+		"strict": true
+	},
+	"include": ["src/**/*"]
+}
